@@ -1,10 +1,11 @@
 import random
-word_list=["Apple", "Banana", "Orange", "Cherry","Watermelon"]
-word = random.choice(word_list)
+fruit_list=["Apple", "Banana", "Orange", "Cherry","Watermelon"]
 
-guess = str(input("Please enter a single letter: "))
+random_fruit = random.choice(fruit_list)
 
-if ((guess >= "a" and guess <="z")) or ((guess>="A" and guess<="Z")) and len(guess) == 1:
+User_guess = str(input("Please enter a single letter: "))
+
+if ((User_guess >= "a" and User_guess <="z")) or ((User_guess>="A" and User_guess<="Z")) and len(User_guess) == 1:
     print("Good guess!")
 else: 
     print("Oops!That is not a valid input.")
