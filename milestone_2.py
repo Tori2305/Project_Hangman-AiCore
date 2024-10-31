@@ -9,4 +9,3 @@ if ((user_guess >= "a" and user_guess <="z")) or ((user_guess>="A" and user_gues
     print("Good guess!")
 else: 
     print("Oops!That is not a valid input.")
-
