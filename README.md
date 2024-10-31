@@ -1,2 +1,16 @@
 # Hangman-Project
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts. This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
+
+
+## Description
+Project designed to implement the Hangman game, where the computer thinks of a word and the user tries to guess it.
+The aim of the project is to pull in altogether all that I have learnt so far throughout my course with AiCore. 
+Learnings so far: 
+
+##Installation instructions
+WIP
+##Usage instructions
+WIP
+##File structure of the project
+WIP
+##License information
+WIP
