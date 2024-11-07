@@ -11,15 +11,15 @@ class Hangman:
     self.num_letters=set(self.word)
     self.list_of_guesses=[]
 
-  def check_guess(guess):
+  def check_guess(self,guess):
     guess=guess.lower()
-    if guess in word:
+    if guess in self.word:
       print(f"Good guess! {guess} is in the word")
-      for guess in word:
-        if guess in word_guessed:
-          index = [i for i, l in enumerate(word)if l == guess]
+      for guess in self.word:
+        if guess in self.word_guessed:
+          index = [i for i, l in enumerate(self.word)if l == guess]
           for i in index:
-            word_guessed = word_guessed[:i] + guess + word_guessed[i+1:]
+            self.word_guessed = self.word_guessed[:i] + guess + self.word_guessed[i+1:]
       num_letters-=1
     else:
       num_lives -=1
@@ -27,13 +27,13 @@ class Hangman:
       print(f"You have {num_lives} lives left")
 
   
-  def ask_for_input():
+  def ask_for_input(self):
     while True:
       guess=str(input("Please guess a single alphabetical letter: "))
-      if guess != 1 and guess is not isalpha():
+      if guess != 1 or not guess.isalpha():
         print("Invalid letter. Please, enter a single alphabetical character: ")
-      elif guess in list_of_guesses:
+      elif guess in self.list_of_guesses:
         print("You've already tried that letter!")
       else:
-        list_of_guesses=list_of_guesses.append(guess)
-        check_guess(guess)
+        self.list_of_guesses=self.list_of_guesses.append(guess)
+        self.check_guess(guess)
