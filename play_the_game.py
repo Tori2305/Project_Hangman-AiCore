@@ -1,5 +1,4 @@
 import random
-fruit_list = ["apple", "banana", "orange", "grape", "watermelon"]
 
 
 class Hangman:
@@ -12,12 +11,11 @@ class Hangman:
     self.list_of_guesses=[]
 
   def check_guess(self,guess):
-    guess=guess.lower()
     if guess in self.word:
         print(f"Good guess! {guess} is in the word")
-        for i in range(len(self.word)):
-                if self.word[i] == guess:
-                   self.word_guessed[i] = guess
+        for index,char in enumerate(self.word):
+           if self.word[index]==guess:
+              self.word_guessed[index] = guess
         self.num_letters -= 1
         print(" ".join(self.word_guessed))
     else:
@@ -25,10 +23,10 @@ class Hangman:
       print(f"Sorry, {guess} is not in the word")
       print(f"You have {self.num_lives} lives left")
 
-  
   def ask_for_input(self):
     while True:
-      guess=str(input("Please guess a single alphabetical letter: "))
+      guess=input("Please guess a single alphabetical letter: ")
+      guess=guess.lower()
       if len(guess) != 1 or not guess.isalpha():
         print("Invalid letter. Please, enter a single alphabetical character: ")
       elif guess in self.list_of_guesses:
@@ -36,6 +34,7 @@ class Hangman:
       else:
         self.list_of_guesses.append(guess)
         self.check_guess(guess)
+        print(self.word_guessed)
         break
         
 def play_game(word_list):
@@ -52,6 +51,7 @@ def play_game(word_list):
       print("Congratulations. You won the game!")
       break
 
-
-play_game(fruit_list)
+if __name__ =="__main__":
+  fruit_list = ["apple", "banana", "orange", "grape", "watermelon"]
+  play_game(fruit_list)
 
