@@ -9,7 +9,6 @@
 - [Contributions](#contributions)
 - [File Structure](#filing)
 - [License](#license)
-- [FullCode](#FullCode)
    
 
 ## Introduction 
@@ -144,8 +143,8 @@ Play the game:
 
 
 **Play as it is, or if you'd like to change parts of the game, you can amend the following:**
-- **Change the number of tries** a user has: see *line 122*.
-- **Change the words in the list**: On *line 138*, change `fruit_list` to whatever list you'd like. When you play the game, be sure to change this to the new name of your list.
+- **Change the number of tries** a user has: see *line 124*.
+- **Change the words in the list**: On *line 140*, change `fruit_list` to whatever list you'd like. When you play the game, be sure to change this to the new name of your list.
 
 ## Contributions
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
@@ -154,5 +153,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 All the workings within the project are saved in [this folder](hangman_workings)
 The code for the game is also saved [here](Hangman_game.py)
 
-## License information
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
