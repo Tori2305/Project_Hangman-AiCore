@@ -6,7 +6,7 @@
 - [Description](#description)
 - [Learnings](#learnings)
 - [Usage](#usage)
-- [Contributions](#contributons)
+- [Contributions](#contributions)
 - [File Structure](#filing)
 - [License](#license)
 - [FullCode](#FullCode)
