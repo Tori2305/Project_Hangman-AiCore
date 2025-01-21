@@ -24,10 +24,10 @@ This project is part of the AI Core curriculum and aims to build a Hangman game.
 - Provide feedback on whether the guessed letter is in the word
 - End the game when the user either guesses the word or runs out
 
-## **Description**
+## Description
 The aim of the project is to test the skills learned so far throughout my AiCore training course. Including; all data types, while,for and if loops, error handling and object orientation programming to name but a few. 
 
-## **Learnings**
+## Learnings
 1. Python Programming - Ability to write and understand Python code, including the use of classes, functions, and control structures.
 2. Object Orientation Programming - Understand OOP principals including encapsulation, inheritance, and the use of docstrings & comments.
 3. Problem-Solving - Logically thinking about checking user input, updating the game state and handling game logic.
@@ -147,10 +147,10 @@ Play the game:
 - **Change the number of tries** a user has: see *line 122*.
 - **Change the words in the list**: On *line 138*, change `fruit_list` to whatever list you'd like. When you play the game, be sure to change this to the new name of your list.
 
-## **Contributing**
+## Contributions
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-## **Filing**
+## Filing
 All the workings within the project are saved in [this folder](hangman_workings)
 The code for the game is also saved [here](Hangman_game.py)
 
