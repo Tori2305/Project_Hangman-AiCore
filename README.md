@@ -152,7 +152,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## **Filing**
 All the workings within the project are saved in [this folder]( )
-The code for the game is also saved [here]( )
+The code for the game is also saved [here](Hangman_game.py)
 
 ## License information
 This project is licensed under the MIT License. See the LICENSE file for details.
