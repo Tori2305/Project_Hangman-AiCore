@@ -3,29 +3,37 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Description](#description)
+- [Learnings](#learnings)
 - [Usage](#usage)
 - [FullCode](#FullCode)
    
-## Introduction
 
-This project is part of the AI Core curriculum and aims to build the classic game of Hangman. An implementation of the game, whereby the computer thinks of a word and the user tries to guess it.
+## Introduction 
+This project is part of the AI Core curriculum and aims to build a Hangman game. Users can guess letters to figure out a randomly selected word from a list of words.
 
 
-## Features
-- Use of Python basis commands such as if-else statements and while loops to create variables for the game.
-- C
-
+## Features 
+- Randomly select a word from a list of words
+- Allow users to guess letters
+- Display the current state of the word with correctly guessed letters
+- Track the number of lives remaining
+- Provide feedback on whether the guessed letter is in the word
+- End the game when the user either guesses the word or runs out
 
 ## **Description**
 The aim of the project is to test the skills learned so far throughout my AiCore training course. Including; all data types, while,for and if loops, error handling and object orientation programming to name but a few. 
 
 ## **Learnings**
-- The use of self. within the class and how to call on this when you're outside that class.
-- Formatting clearly so that code is easily followed and edited if necessary.
-- Learned how to handle errors and implement changes to fix.
-- Sanity print statement checks ;)
+1. Python Programming - Ability to write and understand Python code, including the use of classes, functions, and control structures.
+2. Object Orientation Programming - Understand OOP principals including encapsulation, inheritance, and the use of docstrings & comments.
+3. Problem-Solving - Logically thinking about checking user input, updating the game state and handling game logic.
+4. Code refactoring - Improving the readability and structure of my code, making it more maintainable and easier to understand.
+5. User Input Handling - Effectively handling user input, including validation and feedback, which is essential for creating interactive applications.
+6. Randomisation - Ability to use Python random module demonstrating ability to work with external libraries.
+7. Documentation - Using clear and concise dostrings and comments helping others to understand purpse and use of my code.
 
-## Installation instructions
+## Usage
 WIP
 
 ## **Usage instructions**
