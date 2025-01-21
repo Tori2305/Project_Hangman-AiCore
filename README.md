@@ -6,6 +6,9 @@
 - [Description](#description)
 - [Learnings](#learnings)
 - [Usage](#usage)
+- [Contributions](#contributons)
+- [File Structure](#filing)
+- [License](#license)
 - [FullCode](#FullCode)
    
 
@@ -140,15 +143,16 @@ Play the game:
 
 
 
-## **Usage instructions**
-Play as it is or if you'd like to change parts of the game, you can amend the following: 
-- Change the number of tries a user has see *line 47*
-- Change the words for the computer to choose from, see list in line 2, be sure to rename the variable if fruit is no longer relevant. (You will also need to change this on *line 56* when you call the function play_game. 
+**Play as it is, or if you'd like to change parts of the game, you can amend the following:**
+- **Change the number of tries** a user has: see *line 122*.
+- **Change the words in the list**: On *line 138*, change `fruit_list` to whatever list you'd like. When you play the game, be sure to change this to the new name of your list.
 
+## **Contributing**
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-## **File structure of the project**
-Workings towards the game are all saved in the folder **'hangman_workings'**
-The game itself is saved as **'play_the_game'**
+## **Filing**
+All the workings within the project are saved in [this folder]( )
+The code for the game is also saved [here]( )
 
 ## License information
-WIP
+This project is licensed under the MIT License. See the LICENSE file for details.
