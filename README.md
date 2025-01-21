@@ -37,7 +37,6 @@ The aim of the project is to test the skills learned so far throughout my AiCore
 
 Initialise the game:
 
-      '''python
       import random
 
       class Hangman:
@@ -132,11 +131,13 @@ Initialise the game:
                 else:
                   print("Congratulations. You won the game!")
                   break
-      
+
+Play the game:
+
         if __name__ =="__main__":
         fruit_list = ["apple", "banana", "orange", "grape", "watermelon"]
         play_game(fruit_list)
-        '''
+
 
 
 ## **Usage instructions**
