@@ -151,7 +151,7 @@ Play the game:
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
 ## **Filing**
-All the workings within the project are saved in [this folder]( )
+All the workings within the project are saved in [this folder](hangman_workings)
 The code for the game is also saved [here](Hangman_game.py)
 
 ## License information
