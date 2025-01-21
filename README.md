@@ -1,5 +1,20 @@
-# Hangman-Project
-The classic game of hangman - the computer generates a random word and you have 5 guesses to guess what that word is.
+# Hangman
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Usage](#usage)
+- [FullCode](#FullCode)
+   
+## Introduction
+
+This project is part of the AI Core curriculum and aims to build the classic game of Hangman. An implementation of the game, whereby the computer thinks of a word and the user tries to guess it.
+
+
+## Features
+- Use of Python basis commands such as if-else statements and while loops to create variables for the game.
+- C
+
 
 ## **Description**
 The aim of the project is to test the skills learned so far throughout my AiCore training course. Including; all data types, while,for and if loops, error handling and object orientation programming to name but a few. 
